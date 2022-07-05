@@ -22,7 +22,7 @@ $ pip install numpy pandas Image pykml
 ### Usage 
 
 ```
-usage: kmz-extractor.py [-h] [-f FILENAME] [-o OUTPUTFILENAME] [-k | --keepWorkDir | --no-keepWorkDir]
+usage: kmz_extractor.py [-h] [-f FILENAME] [-o OUTPUTFILENAME] [-k | --keepWorkDir | --no-keepWorkDir]
 
 options:
   -h, --help            show this help message and exit
@@ -37,7 +37,7 @@ options:
 ### Run sample
 
 ```
-$ python kmz-extractor.py -f sample.kmz
+$ python kmz_extractor.py -f sample.kmz
 ```
 
 
