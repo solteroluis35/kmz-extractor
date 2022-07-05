@@ -34,5 +34,11 @@ options:
                         Keep the workdir
 ```
 
+### Run sample
+
+```
+$ python kmz-extractor.py -f sample.kmz
+```
+
 
 
