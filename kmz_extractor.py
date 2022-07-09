@@ -268,8 +268,8 @@ for i in np.arange(0, 16):
 # Export Matrix
 print('Exporting Data')
 
-data_frame = pd.DataFrame(reflectivity_array)
-data_frame.to_csv(OUTPUT_NAME+'.csv')
+data_frame = pd.DataFrame(reflectivity_array, columns=['dBZ','lat','lon'])
+data_frame.to_csv(OUTPUT_NAME+'.csv',index=False)
 
 if args.keepWorkDir is None:
     copy(OUTPUT_NAME+'.csv', SCRIPT_DIR)
