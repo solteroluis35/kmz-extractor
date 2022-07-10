@@ -6,10 +6,11 @@ import geopandas as gpd
 import pandas as pd
 
 HAIL_CHANCE_THRESHOLD = 0.70
-DBZ_THRESHOLD = 28
+DBZ_THRESHOLD = 33
 ADDRESS = 'Secretaria de Movilidad, Guadalajara, Mexico'
 
 location = gpd.tools.geocode(ADDRESS)
+print('Calculating for', location)
 
 # Read reflectivity data with geo location
 reflectivity = pd.read_csv('reflectivity.csv')
