@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 '''Script to download an updated KMZ radar file.'''
 
 from datetime import datetime, timezone
