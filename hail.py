@@ -7,7 +7,7 @@ import pandas as pd
 
 HAIL_CHANCE_THRESHOLD = 0.70
 DBZ_THRESHOLD = 33
-ADDRESS = 'Secretaria de Movilidad, Guadalajara, Mexico'
+ADDRESS = 'Guadalajara, Mexico'
 
 location = gpd.tools.geocode(ADDRESS)
 print('Calculating for', location)
